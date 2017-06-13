@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ViewEventDispatchDemo</string>
+
+    <string name="change_circle_color">Change Circle Color</string>
+    <string name="count">count</string>
+    <string name="change_line_color">Change Line Color</string>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Settings</string>
+
+    <string name="settings">Settings</string>
+    <string name="sims_and_network">SIMs and network</string>
+    <string name="wlan">WLAN</string>
+    <string name="more">More</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="wireless_networks">Wireless &amp; networks</string>
+    <string name="sounds_and_notifications">Sounds &amp; notifications</string>
+</resources>

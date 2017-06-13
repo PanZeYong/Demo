@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<preference-headers xmlns:android="http://schemas.android.com/apk/res/android" >-->
+    <!--<header-->
+        <!--android:id="@+id/wireless_and_network"-->
+        <!--android:title="@string/wireless_networks"/>-->
+
+    <!--<header-->
+        <!--android:id="@+id/sounds_and_notifications"-->
+        <!--android:title="@string/sounds_and_notifications"/>-->
+<!--</preference-headers>-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings">
+
+    <PreferenceCategory
+        android:key="@string/wireless_networks"
+        android:title="@string/wireless_networks">
+
+        <com.pan.settingsdemo.SettingsItemPreference
+            android:key="@string/sims_and_network"
+            android:title="@string/sims_and_network"
+            android:icon="@drawable/sims_and_network" />
+
+        <com.pan.settingsdemo.SettingsItemPreference
+            android:key="@string/wlan"
+            android:title="@string/wlan"
+            android:icon="@drawable/wlan" />
+
+        <com.pan.settingsdemo.SettingsItemPreference
+            android:key="@string/bluetooth"
+            android:title="@string/bluetooth"
+            android:icon="@drawable/bluetooth" />
+
+        <com.pan.settingsdemo.SettingsItemPreference
+            android:key="@string/more"
+            android:title="@string/more"
+            android:icon="@drawable/more" />
+    </PreferenceCategory>
+</PreferenceScreen>

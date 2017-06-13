@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.pan.materialdesigndemo.MainActivity">
+
+    <!--<ImageView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@drawable/test"/>-->
+    <!--<Button-->
+        <!--android:id="@+id/btn_enter_explode"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="?android:attr/selectableItemBackground"-->
+        <!--android:text="Enter Explode"/>-->
+
+    <!--<Button-->
+        <!--android:id="@+id/btn_enter_slide"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="?android:attr/selectableItemBackgroundBorderless"-->
+        <!--android:text="Enter Slide"/>-->
+
+    <!--<Button-->
+        <!--android:id="@+id/btn_enter_fade"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Enter Fade"/>-->
+
+    <!--<Button-->
+        <!--android:id="@+id/btn_share"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@drawable/selector_button"-->
+        <!--android:elevation="5dp"-->
+        <!--android:transitionName="share"-->
+        <!--android:text="Share"/>-->
+    <TextView
+        android:id="@+id/tv_round_rect"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="20dp"
+        android:elevation="1dp" />
+
+    <TextView
+        android:id="@+id/tv_oval"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="20dp"
+        android:elevation="1dp" />
+
+    <TextView
+        android:id="@+id/tv_rect"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:elevation="1dp" />
+
+    <!--<ImageView-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:elevation="5dp"-->
+        <!--android:src="@mipmap/ic_launcher"/>-->
+
+    <!--<ImageView-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:elevation="5dp"-->
+        <!--android:tintMode="add"-->
+        <!--android:tint="@android:color/holo_blue_bright"-->
+        <!--android:contentDescription="TintMode"-->
+        <!--android:src="@mipmap/ic_launcher"/>-->
+
+    <!--<ImageView-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:elevation="5dp"-->
+        <!--android:tint="@android:color/holo_blue_bright"-->
+        <!--android:tintMode="multiply"-->
+        <!--android:contentDescription="TintMode : multiply"-->
+        <!--android:src="@mipmap/ic_launcher"/>-->
+
+    <!--<ImageView-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:elevation="5dp"-->
+        <!--android:tint="@android:color/holo_blue_bright"-->
+        <!--android:tintMode="screen"-->
+        <!--android:contentDescription="TintMode : screen"-->
+        <!--android:src="@mipmap/ic_launcher"/>-->
+
+    <!--<ImageView-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:elevation="5dp"-->
+        <!--android:tint="@android:color/holo_blue_bright"-->
+        <!--android:tintMode="src_atop"-->
+        <!--android:contentDescription="TintMode : src_atop"-->
+        <!--android:src="@mipmap/ic_launcher"/>-->
+
+    <!--<ImageView-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:elevation="5dp"-->
+        <!--android:tint="@android:color/holo_blue_bright"-->
+        <!--android:tintMode="src_in"-->
+        <!--android:contentDescription="TintMode : src_in"-->
+        <!--android:src="@mipmap/ic_launcher"/>-->
+
+    <!--<ImageView-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:elevation="5dp"-->
+        <!--android:tint="@android:color/holo_blue_bright"-->
+        <!--android:tintMode="src_over"-->
+        <!--android:contentDescription="TintMode : src_over"-->
+        <!--android:src="@mipmap/ic_launcher"/>-->
+</LinearLayout>

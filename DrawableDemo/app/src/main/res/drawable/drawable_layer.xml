@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:opacity="opaque">
+
+    <item>
+        <bitmap
+            android:src="@drawable/ic_launcher"
+            android:tint="@color/blue"
+            android:tintMode="add"
+            android:gravity="center"/>
+    </item>
+
+    <item android:top="40dp" android:left="40dp">
+        <bitmap
+            android:src="@drawable/ic_launcher"
+            android:tint="@color/green"
+            android:tintMode="multiply"
+            android:gravity="center"/>
+    </item>
+
+    <item android:top="80dp" android:left="80dp">
+        <bitmap
+            android:src="@drawable/ic_launcher"
+            android:tint="@color/yellow"
+            android:tintMode="screen"
+            android:gravity="center"/>
+    </item>
+</layer-list>

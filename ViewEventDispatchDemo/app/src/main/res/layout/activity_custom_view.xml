@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.pan.vieweventdispatchdemo.CircleView
+        android:id="@+id/circle_view"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        app:circle_color="@color/colorAccent"
+        app:text_size="96sp"
+        android:padding="20dp"
+        android:layout_margin="20dp"
+        android:background="@color/custom_view" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_change_circle_color"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/change_circle_color"/>
+
+        <Button
+            android:id="@+id/btn_count"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/count"/>
+
+        <Button
+            android:id="@+id/btn_change_line_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/change_line_color"/>
+    </LinearLayout>
+</LinearLayout>
